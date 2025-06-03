@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sub"><h2 class="h2-main">MAKE YOUR OWN NOTES...</h2></div>
+        <div class="sub">
+            <textarea name="ta" id="ta1" cols="30" class="texty" rows="10" placeholder="Type anything.."></textarea>
+        </div>
+        <div class="sub" id="sub3">
+            <h2>Click on '+' to save your Notes </h2>
+            <h2><button onclick="addingNotes()">+</button></h2>
+
+        </div>
+        
+        <div class="sub">
+            <h2 class="h2-main" style="background-color: rgb(36, 218, 42);">YOUR NOTES</h2>
+        </div>
+        <div class="sub" id="notesContainer"></div>
+
+    </div>
+    <script src="jssrc.js"></script>
+    
+</body>
+</html>
